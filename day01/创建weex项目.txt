@@ -1,0 +1,6 @@
+1,npm install -g weex-toolkit
+2.weex create project-name
+//3.连接模拟器
+adb connect 127.0.0.1:21503  
+3.weex platform add android
+4.weex run android

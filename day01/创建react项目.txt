@@ -1,0 +1,11 @@
+//1.启动安卓模拟器
+//2.查看模拟器连接情况
+adb devices
+//逍遥模拟器的连接方式 
+//D:\Program Files\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu.memu-prev文件中可以找到
+//3.连接模拟器
+adb connect 127.0.0.1:21503  
+//4.创建react项目
+react-native init myrn01
+//5.启动react项目
+npx react-native run-android
